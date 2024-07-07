@@ -1,0 +1,40 @@
+html{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+body{
+    font-family: "Inter", sans-serif; 
+}
+
+header{
+    height: 120px;
+}
+
+section{
+    margin-top: 119px;
+}
+
+section .name{
+    font-size: 80px;
+    font-weight: lighter;
+    margin: 8px 0;
+}
+
+section p{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+section a{
+    font-size: 24px;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    margin-top: 130px;
+
+}
+
