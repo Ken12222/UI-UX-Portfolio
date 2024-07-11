@@ -16,11 +16,11 @@
 <link rel="stylesheet" href="css/main.css">
     <title>Kenneth Ashartey</title>
 </head>
-<body class="container">
+<body>
     
 <!-- navbar -->
-        <header>   
-            <nav class="navbar navbar-expand-lg">
+        <header class="container">   
+            <nav class="navbar navbar-expand-lg fixed">
                 <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">KA.</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,18 +42,212 @@
                 </div>
             </nav>
         </header>
-        <section>
+        <section class="container">
             <p>Hey I'm</p>
             <h1 class="name">Kenneth Ashartey</h1>
             <p>I'm a User Interface and Experience Designer based in Ghana and also a Computer Science student. I enjoy creating things that live on the internet, whether that be web Designs, product Designs, or anything in between. I have been freelancing for a year now while studying at the Koforidua Technical University and I've manage to gain a decent amount of experience and valuable knowledge from all different kinds of fields throughout my projects/work.</p>
 
-            <a href="">Hire Me -></a>
+            <a href="#contact">Hire Me</a>
         </section>
-        <main>
+        <main class="container container-fluid">
             <p>FEATURED PROJECTS</p>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        
+                        <div class="container-fluid projects p-2 d-flex">
+                            <img class="m-3 w-25 h-25" src="images/11.png" alt="project_icon">
+                            <div>
+                            <h1 class="mb-3">Oyeh</h1>
+                            <a href="https://play.google.com/store/apps/details?id=com.oyeh_ghana">Live</a>
+        
+                            <h5 class="pt-3 pb-0">Overview</h5>
+                            <p class="mt-2">Oyeh connects parents with their child's academic journey through <br> real-time access to attendance records, academic progress, and seamless <br> communication with teachers.</p>
+        
+                            <!-- My role  -->
+                            <div class="accordion">
+                                <div>
+                                    <button href="#oyeh" class="accordion-link">My Role--></button>
+                                    <div id="oyeh" class="accordion-content">
+                                    <p>Brainstorming and gathering ideas to identify  the most effective  methods for implementing products. A key aspect of my role   on this project is ensuring user interaction with the new system  is intuitive and seamless. My approach involves thorough evaluation  and iteration, prioritizing  user-centric design principles to enhance overall  user experience.</p>
+                                    <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- My role -->
+                            </div>
+        
+        
+                        </div>  
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        
+                        <div class="container-fluid projects p-2 d-flex">
+                            <img class="m-3 w-25 h-25" src="images/11.png" alt="project_icon">
+                            <div>
+                            <h1 class="mb-3">Nufiala</h1>
+                            <a href="https://play.google.com/store/apps/details?id=com.graphicsIntel.nufiala&pcampaignid=web_share">Live</a>
+        
+                            <h5 class="pt-3 pb-0">Overview</h5>
+                            <p class="mt-2">Nufiala simplifies educators' tasks with features for attendance, grading, lesson planning, and communication, enhancing teaching efficiency and collaboration.</p>
+        
+                            <!-- My role  -->
+                            <div class="accordion">
+                                <div>
+                                    <button href="#nufiala" class="accordion-link">My Role--></button>
+                                    <div id="nufiala" class="accordion-content">
+                                    <p>Brainstorming and gathering ideas to identify  the most effective  methods for implementing products. A key aspect of my role   on this project is ensuring user interaction with the new system  is intuitive and seamless. My approach involves thorough evaluation  and iteration, prioritizing  user-centric design principles to enhance overall  user experience.</p>
+                                    <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- My role -->
+                            </div>
+        
+        
+                        </div>  
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        
+                        <div class="container-fluid projects p-2 d-flex">
+                            <img class="m-3 w-25 h-25" src="images/11.png" alt="project_icon">
+                            <div>
+                            <h1 class="mb-3">Property Management Console(PMC)</h1>
+                            <a href="https://pmconline.global/index.php">Live</a>
+        
+                            <h5 class="pt-3 pb-0">Overview</h5>
+                            <p class="mt-2">PMC is your top choice for finding your next home and paying bills easily. It makes being a landlord simpler than ever.</p>
+        
+                            <!-- My role  -->
+                            <div class="accordion">
+                                <div>
+                                    <button href="#pmc" class="accordion-link">My Role--></button>
+                                    <div id="pmc" class="accordion-content">
+                                    <p>Brainstorming and gathering ideas to identify  the most effective  methods for implementing products. A key aspect of my role   on this project is ensuring user interaction with the new system  is intuitive and seamless. My approach involves thorough evaluation  and iteration, prioritizing  user-centric design principles to enhance overall  user experience.</p>
+                                    <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- My role -->
+                            </div>
+        
+        
+                        </div>  
+                    </div>
+                </div>
+                
+
+
+                <section class="container-fluid contact-form section w-100" id="contact">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-12">
+                          <h2 class="mb-5 text-center">Contact Me</h2>
+                        </div>
+                        <div class="col-12">
+                          <form id="contact-form">
+                            <div class="row">
+                              <!-- Name -->
+                              <div class="col-md-6 mb-2">
+                                <input
+                                  id="name"
+                                  class="form-control main"
+                                  type="text"
+                                  placeholder="Name"
+                                  required
+                                />
+                              </div>
+                              <!-- Email -->
+                              <div class="col-md-6 mb-2">
+                                <input
+                                  id="email"
+                                  class="form-control main"
+                                  type="email"
+                                  placeholder="Your Email Address"
+                                  required
+                                />
+                              </div>
+                              <!-- subject -->
+                              <div class="col-md-12 mb-2">
+                                <input
+                                  id="subject"
+                                  class="form-control main"
+                                  type="text"
+                                  placeholder="Subject"
+                                  required
+                                />
+                              </div>
+                              <!-- Message -->
+                              <div class="col-md-12 mb-2">
+                                <textarea
+                                  id="message"
+                                  class="form-control main"
+                                  name="message"
+                                  rows="10"
+                                  placeholder="Your Message"
+                                ></textarea>
+                              </div>
+                              <!-- Submit Button -->
+                              <div class="col-12 text-right">
+                                <button class="btn btn-main-md" id="submitButton" type="submit">
+                                  Submit
+                                </button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+            </section>
         </main>
 
-    </div>    
+
+    </div>   
+    
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          var submitButton = document.getElementById("submitButton");
+          submitButton.disabled = true;
+          submitButton.innerHTML =
+            '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Sending...';
+
+          var formData = {
+            template: "default",
+            user_name: "Kenneth Portfolio",
+            email: "ashartey2@gmail.com",
+            subject: document.getElementById("subject").value,
+            message: `${document.getElementById("subject").value}. \n\n
+              New message from ${document.getElementById("name").value} - ${
+              document.getElementById("email").value
+            }, \n\n
+              Message: \n
+              ${document.getElementById("message").value}`,
+          };
+
+          // Send form data to endpoint using Axios
+          axios
+            .post("https://testing-server.ehealthgh.app:2004/send", formData)
+            .then(function (response) {
+              console.log(response.data);
+              alert("Form submitted sent successfully!");
+            })
+            .catch(function (error) {
+              // console.error(error);
+              alert("Failed to send email.");
+            })
+            .finally(function () {
+              // Re-enable submit button and hide loader
+              submitButton.disabled = false;
+              submitButton.innerHTML = "Submit";
+            });
+        });
+    </script>
 </body>
 </html>
