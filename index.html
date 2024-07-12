@@ -6,13 +6,10 @@
     <!-- Bootstrap Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <!-- Font Awesome link -->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- Google Fonts Link -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/main.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="css/main.css">
     <title>Kenneth Ashartey</title>
 </head>
@@ -20,42 +17,72 @@
     
 <!-- navbar -->
         <header class="container">   
-            <nav class="navbar navbar-expand-lg fixed">
+            <!-- <nav class="navbar navbar-expand-lg fixed-top container bg-black">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">KA.</a>
+                <a class="navbar-brand" style="color:white;" href="index.html">KA.</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end">
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Projects</a>
+                            <a class="nav-link active" aria-current="page" href="#proj">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Resume</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
                 </div>
-            </nav>
+            </nav> -->
+
+            <nav class="navbar navbar-expand-lg fixed-top container bg-black">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">KA.</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" >
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#proj">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Resume</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
         <section class="container">
-            <p>Hey I'm</p>
-            <h1 class="name">Kenneth Ashartey</h1>
-            <p>I'm a User Interface and Experience Designer based in Ghana and also a Computer Science student. I enjoy creating things that live on the internet, whether that be web Designs, product Designs, or anything in between. I have been freelancing for a year now while studying at the Koforidua Technical University and I've manage to gain a decent amount of experience and valuable knowledge from all different kinds of fields throughout my projects/work.</p>
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <p >Hey I'm</p>
+                    <h1 class="name">Kenneth Ashartey</h1>
+                    <p>I'm a User Interface and Brand Designer based in Ghana and also a Computer Science student. I enjoy creating things that live on the internet, whether that be web Designs, product Designs, or anything in between. I have been freelancing for a year now while studying at the Koforidua Technical University and I've manage to gain a decent amount of experience and valuable knowledge from all different kinds of fields throughout my projects/work.</p>
+        
+                    <a href="#contact">Hire Me</a>
+                </div>
 
-            <a href="#contact">Hire Me</a>
+                <div class="col-lg-4 col-md-4 col-sm-12 profile">
+                    <img src="" alt="my_profile">
+                </div>
+            </div>
         </section>
-        <main class="container container-fluid">
+        <main class="container container-fluid" id="proj">
             <p>FEATURED PROJECTS</p>
-                <div class="row">
+                <div class="row" >
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         
                         <div class="container-fluid projects p-2 d-flex">
-                            <img class="m-3 w-25 h-25" src="images/11.png" alt="project_icon">
+                            <img class="m-3 w-25 h-25" src="images/playstore-banner.jpg" alt="project_icon">
                             <div>
                             <h1 class="mb-3">Oyeh</h1>
                             <a href="https://play.google.com/store/apps/details?id=com.oyeh_ghana">Live</a>
@@ -83,7 +110,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         
                         <div class="container-fluid projects p-2 d-flex">
-                            <img class="m-3 w-25 h-25" src="images/11.png" alt="project_icon">
+                            <img class="m-3 w-25 h-25" src="images/nufiaplaystore.jpg" alt="project_icon">
                             <div>
                             <h1 class="mb-3">Nufiala</h1>
                             <a href="https://play.google.com/store/apps/details?id=com.graphicsIntel.nufiala&pcampaignid=web_share">Live</a>
@@ -111,7 +138,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         
                         <div class="container-fluid projects p-2 d-flex">
-                            <img class="m-3 w-25 h-25" src="images/11.png" alt="project_icon">
+                            <img class="m-3 w-25 h-25" src="images/pmc.jpg" alt="project_icon">
                             <div>
                             <h1 class="mb-3">Property Management Console(PMC)</h1>
                             <a href="https://pmconline.global/index.php">Live</a>
@@ -139,11 +166,11 @@
                 
 
 
-                <section class="container-fluid contact-form section w-100" id="contact">
+                <section class="container-fluid contact-form section w-100 pb-5" id="contact">
                     <div class="container">
                       <div class="row">
                         <div class="col-12">
-                          <h2 class="mb-5 text-center">Contact Me</h2>
+                          <h5 class="mb-5 text-center">Contact Me</h5>
                         </div>
                         <div class="col-12">
                           <form id="contact-form">
@@ -190,7 +217,7 @@
                               </div>
                               <!-- Submit Button -->
                               <div class="col-12 text-right">
-                                <button class="btn btn-main-md" id="submitButton" type="submit">
+                                <button style="background-color: white; color: black;" class="btn btn-main-md" id="submitButton" type="submit">
                                   Submit
                                 </button>
                               </div>
