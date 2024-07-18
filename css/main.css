@@ -88,30 +88,6 @@ main .projects p{
     font-weight: 200;
 }
 
-/* main .projects a{
-    font-size: 18px;
-    font-weight: 300;
-    text-decoration: none;
-    color: white;
-    border-radius: 50px;
-    background-color: black;
-    padding: 8px 20px;
-
-} */
-
-/* main .projects a:hover{
-    color: white;
-    border: 1px solid white;
-    border-radius: 50px;
-    background-color: black;
-    transition: 300ms ease-in-out;
-} */
-
-main .projects img{
-    width: 40px;
-    height: 40px;
-}
-
 main .app_link{
     display: flex;
     justify-content: space-between;
